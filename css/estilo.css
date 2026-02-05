@@ -1,0 +1,25 @@
+body{
+background-image: url("../img/fondo.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+color:white;
+}
+
+
+.card{
+background:#3535d531;
+color:white;
+margin-bottom:20px;
+}
+
+input{
+width:100%;
+margin-bottom:10px;
+}
+
+
+li img{
+width: 200px;
+
+}
