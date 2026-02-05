@@ -1,14 +1,11 @@
-// ENCABEZADO
+/
 const enc = Vue.createApp({
 data(){
 return{
 titulo:"Radar Espacial(﹙˓ 📟 ˒﹚)",
-
 }
 }
 });
-
-// FILTRO POR NIVEL
 const app1 = Vue.createApp({
 data(){
 return{
@@ -28,8 +25,6 @@ return this.criminales.filter(c => c.nivel >= this.minimo);
 }
 }
 });
-
-
 const app2 = Vue.createApp({
 data(){
 return{
